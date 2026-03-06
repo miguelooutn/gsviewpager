@@ -49,9 +49,9 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'jmercadot'
+                groupId = 'miguelooutn'
                 artifactId = 'gsViewPager'
-                version = '1.0.1'
+                version = '0.0.1.5'
                 artifact(bundleReleaseAar)
             }
         }
